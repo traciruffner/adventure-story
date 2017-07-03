@@ -1,0 +1,66 @@
+body{
+    background-image: url('../images/library.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100$;
+}
+
+#scroll{
+    margin-top: 2em;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#oldbook{
+    width: 500px;
+    height: auto;
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    width: 9em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-danger{
+    border: 4px solid black;
+}
+
+.clearfix{
+    height: 15em;
+    width: 100%;
+}
+
+.footer{
+    height: 5em;
+    width: 100%;
+    background-color: black;
+}
+
+.share{
+    display: inline-block;
+    float: left;
+    height: 3.5em;
+    width: 3.5em;
+    margin-top: 1em;
+    padding: .75em;
+}
+
+.share:hover{
+    width: 4em;
+    height: 4em;
+}
+.link{
+    margin-top: 1em;
+    float: right;
+}
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
