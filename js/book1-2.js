@@ -23,9 +23,9 @@ $(document).ready(function(){
         $('#part2').show();
         $('#part3').hide();
         $('#dragon2').hide();
-        $('#choices').show();
-        $('#choose1').show();
-        $('#choose2').show();
+        $('#choices').hide();
+        $('#choose1').hide();
+        $('#choose2').hide();
       }); 
     
     $('#cover').click(function(){
@@ -39,7 +39,15 @@ $(document).ready(function(){
         $('#choose2').hide();
     });
     
-     
+     $('#pg3').click(function(){
+        $('#part1').hide();
+        $('#part2').hide();
+        $('#part3').show(); 
+        $('#dragon2').hide();
+        $('#choices').show();
+        $('#choose1').show();
+        $('#choose2').show();
+      }); 
     
     
     
