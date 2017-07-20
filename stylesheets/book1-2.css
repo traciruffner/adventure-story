@@ -1,4 +1,6 @@
-#pg1, #pg2, #cover{
+#pg1, #pg2, #cover, #pg3{
+    margin-top: -1.5em;
+    margin-bottom: 1em;
     float: left;
     background-color: #c6ac27;
     color: white;
@@ -9,11 +11,7 @@ button:hover{
 }
 
 #story{
-    float: right;
-    padding: 4em;
-    margin-top: -27em;
     margin-bottom: 2em;
-    margin-right: -10em;
     background-image: url('../images/parchment.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +39,7 @@ button:hover{
     position: relative;
 }
 
-#part1, #part2, #choices{
+#part1, #part2, #choices, #part3{
    font-weight: 600;
    font-size: 1.25em;
 }
@@ -104,8 +102,10 @@ span{
     height: auto;
 }
     #story{
-        width: 50%;
-        margin-top:5em;
+        width: 55%;
+        float: right;
+        padding: 4em;
+        margin-top: 3em;
         display: inline-block;
     }
     

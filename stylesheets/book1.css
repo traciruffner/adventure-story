@@ -3,7 +3,9 @@
     height: 3em;
 }
 
-#pg1, #pg2, #cover{
+#pg1, #pg2, #cover, #pg3{
+    margin-top: -1.5em;
+    margin-bottom: 1em;
     float: left;
     background-color: #c6ac27;
     color: white;

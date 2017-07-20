@@ -3,6 +3,7 @@ $(document).ready(function(){
     $('#dragon2').show();
     $('#part1').hide();
     $('#part2').hide();
+    $('#part3').hide();
     $('#choices').hide();
     $('#choose1').hide();
     $('#choose2').hide();
@@ -10,6 +11,7 @@ $(document).ready(function(){
     $('#pg1').click (function(){
         $('#part1').show();
         $('#part2').hide();
+        $('#part3').hide();
         $('#dragon2').hide();
         $('#choices').hide();
         $('#choose1').hide();
@@ -19,10 +21,11 @@ $(document).ready(function(){
     $('#pg2').click(function(){
         $('#part1').hide();
         $('#part2').show();
+        $('#part3').hide();
         $('#dragon2').hide();
-        $('#choices').show();
-        $('#choose1').show();
-        $('#choose2').show();
+        $('#choices').hide();
+        $('#choose1').hide();
+        $('#choose2').hide();
       }); 
     
     $('#cover').click(function(){
@@ -30,10 +33,22 @@ $(document).ready(function(){
         $('#dragon2').show();
         $('#part1').hide();
         $('#part2').hide();
+        $('#part3').hide();
         $('#choices').hide();
         $('#choose1').hide();
         $('#choose2').hide();
     });
+    
+     $('#pg3').click(function(){
+        $('#part1').hide();
+        $('#part2').hide();
+        $('#part3').show(); 
+        $('#dragon2').hide();
+        $('#choices').show();
+        $('#choose1').show();
+        $('#choose2').show();
+      }); 
+    
     
     
 });
