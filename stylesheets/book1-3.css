@@ -1,4 +1,4 @@
-#pg1, #pg2, #cover, #pg3{
+#pg1, #pg2, #cover, #pg3, #pg4{
     margin-top: -1.5em;
     margin-bottom: 1em;
     float: left;
@@ -8,11 +8,6 @@
 
 button:hover{
     border: 2px solid black;
-}
-
-a, a:hover, a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 #story{
@@ -38,13 +33,18 @@ a, a:hover, a:visited {
     margin-top: 1em;
 }
 
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .footer{
     width: 100%;
     height: 4em;
     position: relative;
 }
 
-#part1, #part2, #choices, #part3{
+#part1, #part2, #choices, #part3, #part4{
    font-weight: 600;
    font-size: 1.25em;
 }
