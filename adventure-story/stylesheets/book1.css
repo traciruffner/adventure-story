@@ -1,0 +1,89 @@
+body{
+    background-image: url("../images/plaid.jpg");
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    height: 6em;
+    background-color: darkgreen;
+}
+
+#nav{
+    margin-left: 1em;
+}
+
+#ch1, #ch2, #cover, #ch3, #ch4, #ch5, #ch6, #ch7{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    background-color: #c6ac27;
+    color: white;
+ }
+
+button:hover{
+    border: 2px solid black;
+}
+
+#dragon2{
+    width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#author{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1em;
+}
+
+#story{
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    background-image: url('../images/parchment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parchment{
+    width: 100%;
+    
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 4em;
+    position: relative;
+}
+
+#part1{
+   font-weight: 600;
+   font-size: 1.25em;
+}
+
+span{
+   font-family: cursive;
+   font-size: 2em;
+   font-weight: 800;
+   font-style: italic;
+}
+
+@media only screen and (min-width: 1200px){
+    #story{
+        width: 60%;
+    }
+}
+   
+

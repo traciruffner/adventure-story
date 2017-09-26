@@ -1,0 +1,101 @@
+body{
+    background-image: url("../images/plaid.jpg");
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    height:6em;
+    background-color: darkgreen;
+}
+
+#nav{
+    margin-left: 1em;
+}
+
+#ch1, #ch2, #cover, #ch3, #ch4, #ch5, #ch6, #ch7{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    background-color: #c6ac27;
+    color: white;
+ }
+
+button:hover{
+    border: 2px solid black;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#story{
+    margin-bottom: 4em;
+    margin-top: 2em;
+    background-image: url('../images/parchment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parchment{
+    padding: 3em;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 4em;
+    position: relative;
+}
+
+span{
+   font-family: cursive;
+   font-size: 2em;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 25px;  
+   margin-left: 1em;
+   
+}
+
+#intro{
+    margin-left: 2em;
+}
+
+#content{
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+#castle{
+    width: 250px;
+    float: left;
+    margin-right: .5em;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+#dragon2{
+    width: 250px;
+    float: left;
+    margin-right: .5em;
+    background-image: url("../images/sky.jpg");
+    border: 2px solid black;
+}
+
+#fire, #feast, #back{
+    width: 250px;
+    float: left;
+    margin-right: .5em;
+    border: 2px solid black;
+}
+
+@media only screen and (min-width: 1200px){
+    #story{
+        width: 60%;
+    }
+}
+    
